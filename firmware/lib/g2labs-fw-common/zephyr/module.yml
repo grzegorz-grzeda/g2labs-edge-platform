@@ -1,0 +1,4 @@
+name: g2labs_fw_common
+build:
+  cmake: zephyr
+  kconfig: zephyr/Kconfig

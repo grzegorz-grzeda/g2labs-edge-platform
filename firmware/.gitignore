@@ -1,0 +1,43 @@
+# Zephyr build outputs
+build/
+build*/
+*/build/
+*/build*/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# Ninja
+.ninja_log
+.ninja_deps
+
+# Kconfig
+zephyr/.config
+zephyr/.config.old
+
+# Zephyr generated files
+zephyr/include/generated/
+zephyr/zephyr.dts
+zephyr/zephyr.dts.pre
+zephyr/zephyr.elf
+zephyr/zephyr.hex
+zephyr/zephyr.bin
+zephyr/zephyr.map
+zephyr/zephyr.lst
+zephyr/zephyr.stat
+
+# Twister / test artifacts
+twister-out/
+sanity-out/
+
+# Coverage
+coverage/
+*.gcda
+*.gcno
+*.gcov
+
+
