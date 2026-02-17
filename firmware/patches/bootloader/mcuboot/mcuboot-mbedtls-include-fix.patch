@@ -1,0 +1,27 @@
+diff --git a/ext/mbedtls-asn1/src/asn1parse.c b/ext/mbedtls-asn1/src/asn1parse.c
+index 83c7c58a..005f3404 100644
+--- a/ext/mbedtls-asn1/src/asn1parse.c
++++ b/ext/mbedtls-asn1/src/asn1parse.c
+@@ -17,7 +17,7 @@
+  *  limitations under the License.
+  */
+ 
+-#include "common.h"
++#include "../include/common.h"
+ 
+ #if defined(MBEDTLS_ASN1_PARSE_C)
+ 
+diff --git a/ext/mbedtls-asn1/src/platform_util.c b/ext/mbedtls-asn1/src/platform_util.c
+index 4e97e4d1..5711f05d 100644
+--- a/ext/mbedtls-asn1/src/platform_util.c
++++ b/ext/mbedtls-asn1/src/platform_util.c
+@@ -26,7 +26,8 @@
+ #define _POSIX_C_SOURCE 200112L
+ #endif
+ 
+-#include "common.h"
++#include "../include/common.h"
++
+ 
+ #include "mbedtls/platform_util.h"
+ #include "mbedtls/platform.h"
